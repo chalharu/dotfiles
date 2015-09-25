@@ -9,6 +9,9 @@ set autoindent
  
 "バックアップファイルのディレクトリを指定する
 set backupdir=$HOME/.vimbackup
+
+"Undoファイルのディレクトリを指定
+set undodir=$HOME/.vimundo
  
 "クリップボードをWindowsと連携する
 set clipboard=unnamed

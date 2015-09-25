@@ -6,6 +6,8 @@ eval "$(rbenv init -)"
 eval "$(pyenv init -)"
 eval "$(plenv init -)"
 
+source dnvm.sh
+
 if [ -f ~/.bashrc ]; then
   . ~/.bashrc
 fi
